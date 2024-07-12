@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Personal Website</title>
+</head>
+<body>
+    
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="./values.html">My Values</a>
+        <a href="./project.html">Projects</a>
+        <a href="./contact.html">Contact</a>       
+    </div>
+    
+    <div class="header">
+        <h1>Your Name Here</h1>
+        <p>personal tagline here(eg: One step at a time, I will reach my destination.)</p>
+    </div>
+
+    <div class="row">
+        <div class="side">
+          <h2>About Me</h2>
+          <h5>Photo of me:</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>This Section is your bio. This is a short piece introducing yourself.
+            But it must be a summarized version.
+          </p>
+          <h3>Skills, Interests and Experience</h3>
+          <p>This section is for your skills, interests and experience</p>
+          <div>           
+            <p>My favorite animal is: <button id="show-animal">Show Animal</button></p>
+                    <div id="animal-div" class="hidden">A rabbit!
+                <img src="./img/rabbit.jpg" width="500"/>
+            </div>
+          </div>
+          
+          <div>           
+            <p>My superpower is: <button id="show-power">Show Superpower</button></p>
+                    <div id="power-div" class="hidden" style="color: #ee33ee;">Ability Shift!                
+            </div>
+          </div>
+          
+          <div>           
+            <p>My skills include: <button id="show-skills">Show Skills</button></p>
+                    <div id="skills-div" class="hidden" style="color: #2e6af6;">
+                        <li>Communication</li>
+                        <li>Decision Making</li>
+                        <li>Teamwork</li>
+                        <li>Software development</li>
+                        
+                    </div>              
+          </div>
+
+
+         
+        </div>
+        <div class="main">
+          <h2>My Backstory</h2>
+          <h5>Title description</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Add some text...</p>
+          <p>This section is for your backstory. Here you can add more detail and some humor(but keep it short). The backstory usually leads up to how you came to be interested in software development</p>
+          <br>
+          <h2>My Vision and Goals</h2>
+          <h5>Title description</h5>
+          <div class="fakeimg" style="height:200px;">Image</div>
+          <p>Add some text...</p>
+          <p>This section describes a clear, yet imaginative picture of what you aspire to achieve in the future.
+            Your vision will become the driving force behind everything you do in your life. 
+            In order for your vision/goals to actually be meaningful and helpful, it should be short and specific.
+          </p>
+        </div>
+      </div>
+      
+      <div class="footer">
+        <h2>Footer</h2>
+        <p>
+            This section will contain Copyright Year,  Authorship Information and Credit to Collaborators
+
+        </p>
+      </div>
+      <script type="module" src="./app.js"></script>
+</body>
+</html>
